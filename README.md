@@ -113,30 +113,6 @@ Key insights discovered:
 
 ---
 
-## How to Run
-
-1. Clone the repository
-
-```bash
-git clone <your-repository-link>
-```
-
-2. Install required libraries
-
-```bash
-pip install pandas numpy matplotlib seaborn
-```
-
-3. Run the Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-4. Open the Power BI dashboard file to explore visual insights.
-
----
-
 ## Project Outcome
 
 This project demonstrates practical skills in:
