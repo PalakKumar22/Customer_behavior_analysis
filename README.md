@@ -1,127 +1,36 @@
-# Customer_behavior_analysis
-Analyzed customer purchasing behavior and business trends using Python, SQL, and Power BI to uncover actionable insights and support data-driven decision making
+# Customer Behavior Analysis
 
+> End-to-end data analytics project uncovering purchasing patterns and revenue trends using Python, SQL, and Power BI.
 
-A complete end-to-end **Data Analytics Project** focused on understanding customer purchasing patterns and generating business insights using **Python, SQL, and Power BI**.
+## Problem Statement
+Businesses often struggle to identify which customer segments drive the most revenue, when customers are likely to churn, and which products to prioritize. This project analyzes transactional customer data to answer these questions and surface actionable insights.
 
-## Project Overview
-
-This project involves:
-
-* Loading and cleaning customer data using Python
-* Performing Exploratory Data Analysis (EDA)
-* Running SQL queries for business insights
-* Creating an interactive Power BI dashboard
-* Generating insights and visual reports
-
-The objective of this project is to analyze customer behavior, identify trends, and support data-driven decision making.
-
----
-
-## Dataset
-
-The dataset contains customer-related information such as:
-
-* Customer demographics
-* Product categories
-* Sales and revenue data
-* Purchase frequency
-* Order details
-
----
+## Dashboard Preview
+![Customer Behavior Dashboard](Customer_behavior_analysis%20dashboard.jpeg)
 
 ## Tools & Technologies
+| Layer | Tool |
+|---|---|
+| Data Cleaning & EDA | Python (Pandas, NumPy, Matplotlib, Seaborn) |
+| Business Queries | SQL (PostgreSQL / MySQL) |
+| Visualization | Power BI |
+| Notebook | Jupyter |
 
-* **Python**
+## Project Workflow
+1. **Data Loading** — Imported raw dataset; inspected shape, types, and missing values
+2. **Data Cleaning** — Removed duplicates, handled nulls, corrected data types, standardized columns
+3. **Exploratory Data Analysis** — Identified purchasing trends, top products, revenue distribution, and customer segments
+4. **SQL Analysis** — Wrote queries for sales performance, customer lifetime value, and product tracking
+5. **Dashboard** — Built interactive Power BI dashboard with KPI cards, revenue trends, and dynamic filters
 
-  * Pandas
-  * NumPy
-  * Matplotlib
-  * Seaborn
-* **SQL**
+## Key Insights
+- Identified top customer segments contributing disproportionately to revenue
+- Discovered seasonal purchasing spikes and their product category correlation
+- Highlighted repeat vs. one-time customer patterns to inform retention strategy
+- Tracked region-wise performance to surface growth opportunities
 
-  * PostgreSQL / MySQL / SQL Server
-* **Power BI**
-* **Jupyter Notebook**
+## Skills Demonstrated
+Data Cleaning · EDA · SQL Querying · Data Visualization · Business Intelligence · Dashboard Development
 
----
-
-## Project Steps
-
-### 1. Data Loading
-
-* Imported dataset using Python
-* Checked data structure and missing values
-
-### 2. Data Cleaning
-
-* Removed duplicates
-* Handled null values
-* Corrected data types
-* Standardized columns
-
-### 3. Exploratory Data Analysis (EDA)
-
-Performed analysis to identify:
-
-* Customer purchasing trends
-* Top-selling products
-* Revenue patterns
-* Customer segmentation
-* Repeat customer behavior
-
-### 4. SQL Analysis
-
-Used SQL queries for:
-
-* Sales analysis
-* Customer insights
-* Revenue calculations
-* Product performance tracking
-
-### 5. Dashboard Creation
-
-Built an interactive Power BI dashboard featuring:
-
-* KPI cards
-* Revenue trends
-* Customer insights
-* Sales performance
-* Filters and slicers
-
----
-
-## Dashboard Features
-
-* Interactive visualizations
-* Customer behavior insights
-* Region-wise analysis
-* Product performance tracking
-* Dynamic filtering
-
----
-
-## Results & Insights
-
-Key insights discovered:
-
-* High-value customer segments
-* Most profitable product categories
-* Seasonal purchasing trends
-* Customer retention patterns
-* Revenue growth opportunities
-
----
-
-## Project Outcome
-
-This project demonstrates practical skills in:
-
-* Data Cleaning
-* Data Analysis
-* SQL Querying
-* Data Visualization
-* Business Intelligence
-* Dashboard Development
-
-It showcases how raw data can be transformed into meaningful business insights using modern analytics tools.
+## License
+MIT
